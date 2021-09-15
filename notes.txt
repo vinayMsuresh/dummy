@@ -1,0 +1,61 @@
+GIT:- git is a distributed, revision control and source 
+code management system.
+->It allow us to manage our source code history efficiently.
+->It is an open source.
+    ->Version control system:- It is a software that helps developers to work
+    together and maintain a complete history of their work.
+    
+Types:
+    1. Distributed version control system.
+
+Advantages of GIT
+-> free and open source
+-> Fast
+-> easy to manage 
+-> security
+
+->Difference between Git and Git hub
+    ->Git is a software tool and github is a service.
+    ->It is installed in local system and github is hosted 
+    on the web.
+    ->It is used to manage different version of the source code.
+    github is used to have a copy of the local repo code.
+    ->git provide commad line to interact with the file, while github provide 
+    GUI to store the files.
+
+->Git architecture.
+    working directory -> staging area -> local repo -> Remote repo
+    
+->Commands for pushing the code.
+    git status
+    git init 
+    git add .
+    git commit -m "Commit message"
+    git config --global user.email "ms@gmail.com"
+    git config --global user.name "vinayMsuresh"
+
+    ->create a repo in github
+    git remote add origin 'repo url'
+    git push -u origin master
+
+-> For pulling the code
+    git clone 'url'
+    branches are very important.
+        ->git branches
+        show all branches
+        -> To create  a branch the command is git branch demo
+        -> git checkout demo (switch to demo branch)
+        ->git checkout -b sumit
+        ->git branch -D test (delete)
+        ->git branch -m demo mydemo (rename a branch)
+        ->git diff b1 b2
+        ->git remote remove origin
+        ->git merge 
+            first we commit, git log and copy the which want to merge in other branch
+            git merge log
+            
+
+            15 - 09 - 2021
+
+
+        
